@@ -7,6 +7,7 @@ body{
   font-size: 16px;
   color:#333;
   letter-spacing: 0.0625em;
+  text-align: center;
 }
 h1, h3{
   margin:0;
@@ -36,7 +37,7 @@ header h1{
   /* letter-spacing: 0.0625em; */
   font-weight:bold;
   font-family: 'Sacramento', cursive;
-  border:1px solid blue;
+  /* border:1px solid blue; */
 
 }
 
@@ -50,7 +51,7 @@ header p{
 .main-image{
   width:55%;
   margin: 4rem auto 0;
-  border:1px solid green;
+  /* border:1px solid green; */
 }
 .main-image img{
   width:100%;
@@ -74,4 +75,20 @@ header p{
 .body p{
   width: 40%;
   margin:0 auto;
+}
+.body .subtitle, .body ul{
+  margin:0 auto;
+  width: 50%;
+  /* border:1px solid red; */
+}
+.body .subtitle, footer{
+  font-size: 1.6rem;
+  font-weight: 500;
+
+}
+.body .subtitle{
+  margin-top:1em;
+}
+footer p{
+  margin: 0;
 }
